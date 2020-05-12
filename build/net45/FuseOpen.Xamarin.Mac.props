@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup>
+    <ContentWithTargetPath Condition="Exists('$(MSBuildThisFileDirectory)\..\..\runtimes\osx\native\libxammac.dylib')" Include="$(MSBuildThisFileDirectory)\..\..\runtimes\osx\native\libxammac.dylib">
+      <TargetPath>libxammac.dylib</TargetPath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </ContentWithTargetPath>
+  </ItemGroup>
+</Project>

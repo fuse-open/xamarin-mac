@@ -1,0 +1,23 @@
+{
+  "name": "@fuse-open/xamarin-mac",
+  "version": "3.4.0",
+  "description": "Unofficial package of Xamarin.Mac.",
+  "files": [
+    "build/**/*",
+    "lib/**/*",
+    "runtimes/**/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xamarin/xamarin-macios.git"
+  },
+  "author": "Xamarin, Inc and contributors",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xamarin/xamarin-macios/issues"
+  },
+  "homepage": "http://www.xamarin.com"
+}
