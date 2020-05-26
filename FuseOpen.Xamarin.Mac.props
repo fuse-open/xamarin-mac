@@ -4,7 +4,7 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ItemGroup>
-    <ContentWithTargetPath Condition="Exists('$(MSBuildThisFileDirectory)\..\..\runtimes\osx\native\libxammac.dylib')" Include="$(MSBuildThisFileDirectory)\..\..\runtimes\osx\native\libxammac.dylib">
+    <ContentWithTargetPath Condition="Exists('$(MSBuildThisFileDirectory)\libxammac.dylib')" Include="$(MSBuildThisFileDirectory)\libxammac.dylib">
       <TargetPath>libxammac.dylib</TargetPath>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </ContentWithTargetPath>
