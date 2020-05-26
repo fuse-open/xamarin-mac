@@ -3,9 +3,9 @@
   "version": "3.4.0",
   "description": "Unofficial package of Xamarin.Mac.",
   "files": [
-    "build/**/*",
-    "lib/**/*",
-    "runtimes/**/*"
+    "*.dll",
+    "*.dylib",
+    "*.props"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
