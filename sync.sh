@@ -1,5 +1,5 @@
 #!/bin/bash
-VERSION="7.8.2.5"
+VERSION="7.10.0.5"
 LIB="/Library/Frameworks/Xamarin.Mac.framework/Versions/$VERSION/lib"
 
 cp "$LIB/../SDKs/Xamarin.macOS.sdk/lib/libxammac.dylib" .
