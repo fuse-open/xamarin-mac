@@ -1,6 +1,6 @@
 {
   "name": "@fuse-open/xamarin-mac",
-  "version": "9.1.0",
+  "version": "9.3.0",
   "description": "Unofficial package of Xamarin.Mac.",
   "files": [
     "*.dll",
